@@ -1,0 +1,46 @@
+.card{
+    height: 100vh;
+    width:20rem ;
+    display: inline;
+}
+
+.card-title{
+    margin-bottom: 2rem;
+}
+
+.pricing{
+    background-color: rgb(229, 255, 253);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+}
+
+.price h1{
+ font-size: 3rem;
+ font-weight: bold;
+}
+
+.know-more{
+    margin-top: 7rem;
+}
+
+.bg-warning{
+transform: rotate(-45deg);
+position: relative;
+top: 15px;
+    left: -120px;
+}
+
+body{
+    display: flex;
+    justify-content: space-between;
+}
+
+
